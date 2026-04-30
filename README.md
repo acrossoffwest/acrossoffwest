@@ -33,8 +33,8 @@ contact:
 ### GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=acrossoffwest&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=acrossoffwest&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://stats.k8s.in-the.dev/api?username=acrossoffwest&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://stats.k8s.in-the.dev/api/top-langs?username=acrossoffwest&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
 <p align="left">
