@@ -1,8 +1,15 @@
-name: Generate Snake
+# Profile README: contribution snake
+#
+# Renders the animated "snake" that eats my GitHub contribution graph
+# (https://github.com/acrossoffwest) and publishes the SVG to the `output`
+# branch, from where the profile README embeds it. Purely cosmetic — shows
+# contribution activity on the profile page. Runs weekly (Monday 00:00 UTC)
+# and on every push to main; can be triggered manually via workflow_dispatch.
+name: "Profile README: contribution snake (weekly)"
 
 on:
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 0 * * 1"
   workflow_dispatch:
   push:
     branches:
